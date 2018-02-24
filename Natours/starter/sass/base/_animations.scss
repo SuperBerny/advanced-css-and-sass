@@ -1,0 +1,53 @@
+/* heading-primary span animations */
+
+@keyframes moveInLeft {
+/* Start */
+   0% {
+      opacity: 0.0;
+      transform: translateX(-10rem);
+   }
+
+/* You can add anything in the middle at whatever percent you want*/
+   80% {
+      transform: translateX(1rem);
+   }
+
+/* Finish */
+   100% {
+      opacity: 1.0;
+      transform: translate(0);
+   }
+}
+
+@keyframes moveInRight {
+/* Start */
+   0% {
+      opacity: 0.0;
+      transform: translateX(10rem);
+   }
+
+   /* You can add anything in the middle at whatever percent you want*/
+   80% {
+      transform: translateX(-10rem);
+   }
+
+   /* Finish */
+   100% {
+      opacity: 1.0;
+      transform: translate(0);
+   }
+}
+
+@keyframes moveInBottom {
+   /* Start */
+   0% {
+      opacity: 0.0;
+      transform: translateY(3rem);
+   }
+
+   /* Finish */
+   100% {
+      opacity: 1.0;
+      transform: translate(0);
+   }
+}
