@@ -2,7 +2,7 @@
 
 Once complete delete the ReadME from your project folder
 
-## Install Node-Sass as a dev dependency
+## Install node-sass as a dev dependency
 
 [node-sass](https://www.npmjs.com/package/node-sass)
 
@@ -16,9 +16,18 @@ npm install node-sass --save-dev
 
 ```
 "scripts": {
-                  <!-- Input file --><!-- Output file -->
-   "sass": "node-sass sass/main.scss css/style.css"
+                        Input file    Output file
+   "sass": "node-sass sass/main.scss css/style.css -w"
 }
 ```
 
-*Remember that package.json will start looking out from the directory that it is in.
+* Add -w suffix will watch for changes and update your css file with every change detected on main.scss
+* This means that you want to import everything to main.scss before adding any styles so that all changes on other scss files will be changed on main.scss
+
+#### cd into the directory where package.json is located:
+
+```
+npm run sass
+```
+
+* Remember that package.json will start looking out from the directory that it is in.
