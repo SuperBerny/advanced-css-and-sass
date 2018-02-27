@@ -21,7 +21,7 @@ npm install node-sass --save-dev
 }
 ```
 
-* Add -w suffix will watch for changes and update your css file with every change detected on main.scss
+* Add `-w` suffix will watch for changes and update your css file with every change detected on main.scss
 * This means that you want to import everything to main.scss before adding any styles so that all changes on other scss files will be changed on main.scss
 
 #### cd into the directory where package.json is located:
