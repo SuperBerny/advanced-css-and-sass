@@ -17,6 +17,7 @@
       // // the icon is a font, not svg, so the same rules to change text apply to it
       display: inline-block;
       background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+      -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
       // end linear gradient background to text
