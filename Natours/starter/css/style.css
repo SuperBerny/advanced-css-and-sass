@@ -67,6 +67,7 @@ Base + typography > general layout + grid > page layout > components
 html {
   /* Setting font-size to 62.5% allows 1rem to be 10px */
   font-size: 62.5%; }
+<<<<<<< HEAD
   @media (max-width: 75em) {
     html {
       font-size: 56.25%; } }
@@ -79,6 +80,23 @@ html {
   @media (min-width: 112.5em) {
     html {
       font-size: 75%; } }
+=======
+  html html {
+    /* Setting font-size to 62.5% allows 1rem to be 10px */
+    font-size: 62.5%; }
+    @media (max-width: 75em) {
+      html html {
+        font-size: 56.25%; } }
+    @media (max-width: 56.25em) {
+      html html {
+        font-size: 50%; } }
+    @media (max-width: 37.5em) {
+      html html {
+        font-size: 30%; } }
+    @media (min-width: 112.5em) {
+      html html {
+        font-size: 75%; } }
+>>>>>>> cbb11560a54b09daf2dca9351d3e36ca840e8ad8
 
 body {
   box-sizing: border-box;
